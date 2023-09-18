@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <title>NK Development</title>
+  </head>
+  <body>
+    <div class="NKDev">
+      <div class="about" id="about">
+        <div class="container">
+          <div class="nav">
+            <a href="#about"><button class="nav-btn">О компании</button></a>
+            <a href="#products"><button class="nav-btn">Продукты</button></a>
+            <a href="#ourproduct"><button class="nav-btn">В разработке</button></a>
+            <a href="#aboutproduct"><button class="nav-btn">О продукте</button></a>
+            <a href="#fond"><button class="nav-btn">О фонде</button></a>
+            <a href="#contacts"><button class="nav-btn">Контакты</button></a>
+          </div>
+
+          <div class="about-company">
+            <img src="./assets/NK.svg" alt="NK" class="NKimg" />
+            <p class="about-company-p">
+              <span class="bold">NK Development</span> — молодая IT компания
+              занимающаяся разработкой программного обеспечения.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="products" id="products">
+        <p class="products-p">
+          Сфера нашей деятельности — продуктовая и заказная разработка мобильных <br>
+          и веб-приложений на современном стеке технологий.
+        </p>
+        <div class="products-icons">
+          <div class="products-item">
+            <img src="./assets/phone.svg" alt="" class="products-item-img" />
+            <p class="products-item-p">Мобильная разработка</p>
+          </div>
+          <div class="products-item">
+            <img src="./assets/web.svg" alt="" class="products-item-img" />
+            <p class="products-item-p">Веб разработка</p>
+          </div>
+          <div class="products-item">
+            <img src="./assets/tech.svg" alt="" class="products-item-img" />
+            <p class="products-item-p">Современный стек технологий</p>
+          </div>
+        </div>
+      </div>
+      <div class="ourproduct" id="ourproduct">
+        <img src="./assets/product1.png" alt="" class="ourproduct-img" />
+        <div class="ourproduct-about">
+          <p class="ourproduct-about-p">
+            Сейчас в разработке: Фреймворк для сквозной интеграции
+            смарт-устройств и мобильных приложений.
+          </p>
+          <img
+            src="./assets/smartwatch.svg"
+            alt=""
+            class="ourproduct-about-img"
+          />
+        </div>
+      </div>
+      <div class="aboutproduct" id="aboutproduct">
+        <img src="./assets/coding.svg" alt="icon" class="aboutproduct-img" />
+        <p class="aboutproduct-p">
+          Продукт нацелен на осуществление фонового сбора показателей здоровья
+          со смарт устройств и сохранение их в пригоднгом для машинного анализа
+          формате
+        </p>
+      </div>
+      <div class="fond" id = "fond">
+        <!-- <p class="fond-p">
+          NK Development победитель конкурса грантов “Студенческий стартап” от
+          Фонда Содействия Инноваций
+        </p> -->
+        <img src="./assets/fond.png" alt="fond" class="fond-img" />
+        <p class="fond-p p2">
+          Работа над проектом осуществляется при поддержке гранта Фонда
+          содействия инновациям, предоставленного в рамках программы
+          «Студенческий стартап» федерального проекта «Платформа
+          университетского технологического предпринимательства»
+        </p>
+      </div>
+      <div class="contacts" id = "contacts">
+        <div class="contacts-head">
+          <p class="contacts-head-p">Наши контакты</p>
+          <img src="./assets/NK2.svg" alt="" class="contacts-head-img">
+        </div>
+        <div class="contacts-main">
+          <div class="contacts-main-block">
+            <p class="contacts-main-block-p">Email: nk.development@yandex.ru</p>
+            <div class="contacts-main-block-item">Телефон: +7 (912) 458 4509</div>
+          </div>
+        </div>
+        <div class="site">
+          <p class="siteby">Site by: Ann Arkhipova </p>
+          <p class="siteby">arkhipova.annett@yandex.ru</p>
+        </div>
+        
+      </div>
+      <div class="up_btn" onClick = "scrollTopTop()"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
