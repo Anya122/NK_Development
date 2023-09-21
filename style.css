@@ -33,7 +33,7 @@ html{
 }
 .NKDev{
     background-color: #00020E;
-    width: 1440px;
+    width: 100wh;
     margin: 0 auto;
     font-family: Inter;
 }
@@ -41,11 +41,15 @@ html{
 .about{
     height: 900px;
     background-image: url("assets/Back.png");
+    background-size: cover;
     
 }
 
 .container{
     padding: 28px 44px 10px 10px;
+    width: 1440px;
+    margin: 0 auto;
+
 }
 
 .nav{
@@ -99,6 +103,7 @@ html{
     height: 800px;
     background: url("/assets/back23.png");
     padding-top: 206px;
+    background-size: cover;
     
 }
 .products-p{
@@ -133,6 +138,9 @@ html{
 .ourproduct{
     display: flex;
     gap: 0 71px;
+    height: 900px;
+    margin: 0 auto;
+    width: 1440px;
     
 }
 .ourproduct-about{
@@ -156,6 +164,7 @@ html{
     padding-top: 246px;
     height: 800px;
     background-image: url("./assets/back4.png");
+    background-size: cover;
 }
 
 .aboutproduct-img{
@@ -271,6 +280,11 @@ html{
 @media screen and (max-width: 550px) {
     .NKDev {
       width: 100%;
+      margin: 0 auto;
+      background-size: cover;
+    }
+    .container{
+        width: 100%;
     }
     .nav{
         margin: 0 auto;
@@ -324,6 +338,7 @@ html{
     }
     .ourproduct{
         height: 900px;
+        width: 100%;
     }
     .ourproduct-about{
         padding-top: 200px;
@@ -344,7 +359,7 @@ html{
         
     }
     .up_btn{
-        right: 50px;
+        right: 52px;
         bottom: 40px;
     }
   }
