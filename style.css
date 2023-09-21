@@ -103,7 +103,7 @@ html{
 
 .products{
     height: 800px;
-    background: url("/assets/back23.png");
+    background: url("/assets/backk.png");
     padding-top: 206px;
     background-size: cover;
     
@@ -346,7 +346,6 @@ html{
         padding-top: 200px;
     }
     .aboutproduct-p{
-        padding-left: 10px;
         padding-right: 10px;
         width: 100%;
         font-size: 16px;
@@ -364,4 +363,27 @@ html{
         right: 52px;
         bottom: 40px;
     }
+    .contacts-main-block{
+        width: 270px;
+        
+    }
+    .contacts{
+        width: 100%;
+        padding: 0;
+    }
+    .contacts-head{
+        flex-direction: column;
+    }
+    .contacts-main-block-item{
+        padding: 27px 0px 0px 0px;;
+        display: block;
+        
+    }
+    .contacts-main-block-p{
+        margin-left: 0;
+        width: 270px;
+        margin: 25px auto;
+        
+    }
+
   }
