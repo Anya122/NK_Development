@@ -16,13 +16,14 @@ a{
     transition-duration: 0.5s;
 }
 p{
-    font-family: Inter;
-    font-style: normal;
+    /* font-family: Inter;
+    font-style: normal; */
+    font-family: 'Roboto', sans-serif;
     color: #FFF;
 }
 body{
     background-color: #00020E;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 body::-webkit-scrollbar { 
@@ -72,6 +73,7 @@ html{
     width: 120px;
     height: 30px;
     border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-btn:hover{
